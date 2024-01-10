@@ -1,0 +1,33 @@
+{
+    "lecture": {
+        "regions": {
+            "definition": [
+                "A region is a collection of data centers located around the world in the different parts. The regions are named as us-east-1, eu-west-1 etc.",
+                "Most AWS services are region scoped. Meaning if you are using a service in 1 region and if you try to use the same service in another region. It will be like starting the service newly"
+            ],
+            "how_to_choose_a_region?": [
+                "The choice of the region depends on various factors",
+                {
+                    "factors": [
+                        "It depends where your target audience is located. If the audience is in American region. It makes more sense to choose the us region instead of europe region",
+                        "Regulations and compliance also plays an important role in choosing a region. Some countries have strict laws that data can not leave their country. So you need to see how that effects your choice",
+                        "New services are not available in all the regions at once. So you have to check which services do you need and in which regions are those services available",
+                        "Pricing also varies region to region"
+                    ]
+                }
+            ]
+        },
+        "availability_zones": {
+            "definition": [
+                "An availablity zone is a data center residing in a region. A region consists of multiple azs.",
+                "There are max of 6 and min 3 azs in a region",
+                "For instance, there are 3 azs in Australia region ap-southeast-1. The azs are: ap-southeast-1a, ap-southeast-1b and ap-southeast-1c",
+                "These azs are independent of each other and are prone to single point of failure. Meaning if one of az dies, the other can take over its place. Which means that the data redunancy plays an important role in these azs",
+                "Each of these azs can have multiple data centers. These data centers have high bandwidth and ultra-low latency"
+            ]
+        },
+        "aws_point_of_presence_aka_edge_location": {
+            "definition": "AWs point of presence or Edge locations help in delivering the content accross the regions with low latency"
+        }
+    }
+}
