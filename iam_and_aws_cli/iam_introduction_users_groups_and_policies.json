@@ -1,0 +1,20 @@
+{
+    "course": {
+        "iam": {
+            "definition": "IAM is short for Identity and Access Management. It's a Global service that allows the AWS admins to create and mange the users and their permissions on services",
+            "entitties_in_iam": {
+                "user": {
+                    "definition": "A user is an identity of someone that can use the services in an AWS account. When a new AWS account is created, a root user is created that has full access on all the services of AWS account. New users can be created in an AWS account and assign them limited permissions to perform actions within the AWS account",
+                    "note": "It is advised that root user should not be used for managing AWS account. Because, a user can perform some irreversable actions that damage the account"
+                },
+                "group": {
+                    "definition": "A group represents a collection of the users. The group can be created to allow multiple users certain level of access to the services. For instance, a 'Developer' group that needs access to the EC2 instances and nothing more. We can create a group for them and allow them access to the EC2 only.",
+                    "note": "A user can be a part of multuple groups at the same time. A group can not inherit another group"
+                },
+                "policy": {
+                    "definition": "A policy is an object in AWS that defines the permission. The policies can be attached to the "
+                }
+            }
+        }
+    }
+}
