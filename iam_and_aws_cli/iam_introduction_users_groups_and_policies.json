@@ -13,6 +13,7 @@
                 },
                 "policy": {
                     "definition": "A policy is an object in AWS that defines the permission. The policies can be attached to the "
+
                 }
             }
         }
