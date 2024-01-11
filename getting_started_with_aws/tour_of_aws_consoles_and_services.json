@@ -1,0 +1,15 @@
+{
+    "lecture": {
+        "console": {
+            "definition": [
+                "AWS console is a web based service that is used by the AWS users to manage and use the services provided by AWS"
+            ],
+            "regions": [
+                "At the top right corner, AWS console gives 'Region Selectro', It's a drop down that allows the users to change the regions and use the services in that region",
+                "As we saw in the previouse lecture, not all the services are available in all the regions. Therefore, switching among the regions gives the users access bunch of other services.",
+                "Some services are global, meaning it doesn't matter which region you are in. Those services will stay the same an example Route 53.",
+                "Some services are region scoped such as EC2"
+            ]
+        }
+    }
+}
