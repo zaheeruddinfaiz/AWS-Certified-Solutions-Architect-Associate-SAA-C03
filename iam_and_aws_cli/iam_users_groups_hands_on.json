@@ -1,0 +1,12 @@
+{
+    "lecture": {
+        "aws_console": {
+            "explanation": [
+                "We can create new users from AWS console. When you signup for AWS account. You are logged in as `root` user. This user has all the privialiges to perform all the operations which can be risky. Therefore, it is recommended to create a IAM user with Adminstrator persmission. And user that user instead of `root` user.",
+                "When a user is created we can assign a group to that user. A group is a collection that represents a common set of permissions associated to that group. Which means if a user is added part of that group, that user will inherit the permissions from that group",
+                "After creating a user object. When someone tries to login with that user for the first time. We can control that the user must create a new password or choose to create a default password for them",
+                "One note about the AWS account. We can create an alias for the aws account. That alias can be used instead of a long account Id while signinup to AWS"
+            ]
+        }
+    }
+}
