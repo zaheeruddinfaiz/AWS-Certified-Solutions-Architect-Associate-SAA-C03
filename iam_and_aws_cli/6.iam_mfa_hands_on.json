@@ -1,0 +1,9 @@
+{
+    "lecture": {
+        "explanation": [
+            "AWS allows MFA to be enabled using various means. Such as; an authenticator app, a USB key etc",
+            "Once the MFA is enabled, the AWS console login will require you to enter the password in your web app + it will prommpt you to enter the MFA code generated on your authenticator app. If both of the authentication pass, then and only then you will be able to login to AWS console",
+            "The AWS MFA can also be configured with the AWS CLI"
+        ]
+    }
+}
