@@ -1,0 +1,9 @@
+{
+    "course": {
+        "explanation": [
+            "AWS cosole allows the an admin user to create/update/attach a policy to the user",
+            "When a user is removed from a group. All the permissions that were granted to that group are removed from the user as well",
+            "The AWS console also allows the users to create the custom policies. These policies can then be later on attached to a group or to a user directly."
+        ]
+    }
+}
