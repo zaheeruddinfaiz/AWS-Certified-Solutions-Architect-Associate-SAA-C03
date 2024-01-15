@@ -4,22 +4,22 @@
             "definition": [
                 "When a user is added to a user group. All the polices that are attached to that user group are inherited by that user",
                 "If a user belongs to multiple groups, the user will inherit all the policies from all the groups",
-                "Sometimes, a user can be assignled a policy without haveing to be part of a user group. That policy is called as inline-policy"
+                "Sometimes, a user can be assignled a policy without having to be part of a user group. That policy is called as inline-policy"
             ]
         },
         "iam_policy_structure": {
             "definition": {
                 "intro": "An IAM policy is a JSON document and it consists of the following components",
                 "components": {
-                    "version": "Policy language version, always include '2021-10-17'",
+                    "version": "Policy language version, always include '2012-10-17'",
                     "id": "An optional identifier of the policy",
                     "statement": {
                         "definition": "A statement is a list of JSON document that define the permissions in the policy",
                         "components": {
                             "sid": "An optional statement identifier",
-                            "effect": "Effect wheter the permission will be granted to denied. The possible values are: `Allow` and `Deny`",
-                            "principal": "A principal states to account/user/role to which this policy will apply to",
-                            "action": "This is a list of the actions (API calls) that will either allowed or denied",
+                            "effect": "Effect wheter the permission will be granted or denied. The possible values are: `Allow` and `Deny`",
+                            "principal": "A principal refer to account/user/role to which this policy will apply to",
+                            "action": "This is a list of the actions (API calls) that will be either allowed or denied",
                             "resource": "This is a list of the resources on which the actions will be applied to.",
                             "condition": "An optional component that defines when this policy would be applied or denied"
                         }
