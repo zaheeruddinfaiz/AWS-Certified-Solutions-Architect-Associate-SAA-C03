@@ -1,5 +1,5 @@
 {
-    "course": {
+    "lecture": {
         "explanation": [
             "AWS cosole allows the an admin user to create/update/attach a policy to the user",
             "When a user is removed from a group. All the permissions that were granted to that group are removed from the user as well",

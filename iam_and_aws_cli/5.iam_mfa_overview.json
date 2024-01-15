@@ -1,0 +1,16 @@
+{
+    "lecture": {
+        "introduction": [
+            "Security is very important nowadays. Therefore, AWS puts a lot of stress over security",
+            "AWS allows the admins to set a password-policy.",
+            "This policy can define the following:",
+            "-Minimum password length, -must have characters in the password, -password expiry time, -prevent from the using existing passwords"
+        ],
+        "mfa": [
+            "MFA adds security on top of the password based logins.",
+            "MFA security = password + authentication from a physical device that is owned by the user",
+            "We already know about the password. However, the physical device gets an authentication code from the service provider to prove that it is really the user loggin in and not an attacker. Because, compromising the password + getting the access to the physical device at the same time seems very difficult",
+            "There are a lot of apps available on Android + iOS that can enable MFA. Google authenticator and Authy are some of the examples"
+        ]
+    }
+}
