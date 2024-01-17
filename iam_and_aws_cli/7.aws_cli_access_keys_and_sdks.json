@@ -1,0 +1,9 @@
+{
+    "lecture": {
+        "ways_to_access_aws": {
+            "aws_management_console": "The most common method of accessing the AWS management console is through the AWS web console. It allows you to access and mange the AWS services through the web interface",
+            "aws_cli": "AWS CLI allows you the developers to perform all the tasks that they can perform through the AWS console. AWS CLI requires the authentication parameters to be generated from the AWS console. When the authentication parameters are generated, a pair of the params gets generated called `AWS_ACCESS_KEY_ID` (it's like your AWS user name) and `AWS_ACCESS_SECRET` (it's like your AWS password). Do not share these credentials with anyone",
+            "aws_sdk": "AWS SDK is a set of libraries built for different programming languages to access and manage the AWS resources programatically. AWS SDKs are available in variaous languages such as Python, JavaScript, PHP, .NET and many more. The authentication method is exactly the same as with the AWS cli"
+        }
+    }
+}
