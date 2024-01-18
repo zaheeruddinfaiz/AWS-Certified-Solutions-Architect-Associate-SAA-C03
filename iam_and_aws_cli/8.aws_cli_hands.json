@@ -1,5 +1,8 @@
 {
     "lecture": {
-        "explanation": "AWS CLI can allow the user to use the AWS services and resources. AWS CLI has a very intuative cli structure and allows the user to interact with the services"
+        "explanation": [
+            "AWS CLI can allow the user to use the AWS services and resources. AWS CLI has a very intuative cli structure and allows the user to interact with the services",
+            "AWS CLI can allow the user to perform all the actions that are applicable via AWS web console"
+        ]
     }
 }
