@@ -1,0 +1,9 @@
+{
+    "lecture": {
+        "explanation": [
+            "AWS cloud shell is an alternative to using the local AWS CLI",
+            "AWS Cloud shell allows to have access to the AWS CLI within the AWS console",
+            "AWS cloud shell is not available in all the regions"
+        ]
+    }
+}
