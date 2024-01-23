@@ -1,0 +1,7 @@
+{
+    "lecture": {
+        "definitaion": "AWS offers various security tools. These tools allow an admin to manage and track the user's access on various AWS resources",
+        "Credentials Report": "Credentials report is a tool that allow the admin to downlaod a CSV file that contains different pieces of information regarding the user's security advice",
+        "Access Advisor": "Access advisor can help an AWS admin list down the access to various AWS services by a user. This can also show the last time the service was used by the user, This helps the admin in keeping track of the least priviliage access to services required by the users"
+    }
+}
