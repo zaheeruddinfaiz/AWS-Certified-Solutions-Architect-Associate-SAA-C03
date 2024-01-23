@@ -1,0 +1,8 @@
+{
+    "lecture": {
+        "explanation": [
+            "IAM Roles are assumed by AWS entties to call other AWS services on behalf of a user",
+            "For instance, if we want to allow an EC2 instance (entity) to get a list of IAM users (service) in AWS account. We can create a role for that, set permissions on the role and assign to the EC2"
+        ]
+    }
+}
